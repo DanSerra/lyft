@@ -1,3 +1,205 @@
 /*
  * Estilos de tu proyecto
  */
+ body {
+   margin: 0;
+   padding: 0;
+   font-family: "Montserrat", sans-serif;
+ }
+
+ nav > #logo-box {
+   margin: 20px 40px;
+ }
+
+ nav > #logo-box > img {
+   width: 100px;
+ }
+
+ nav > #menu-box > span {
+   display: inline-block;
+   margin: 45px 30px;
+   color: white;
+ }
+
+ nav > #menu-box > span > a {
+   color: white;
+   text-decoration: none;
+ }
+ nav > #menu-box > span > .btn-border-white {
+   border: 1px solid white;
+   border-radius: 12px;
+   padding: 20px;
+ }
+
+ nav {
+   overflow: hidden;
+   position: fixed;
+   width: 100%;
+ }
+
+ nav > #logo-box {
+   float: left;
+ }
+
+ nav > #menu-box {
+   float: right;
+ }
+
+ #first-image {
+   background-image: url("../assets/images/hero.gif");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 600px;
+ }
+
+ #white-square {
+   background-color: white;
+   float: right;
+   margin-top: 110px;
+   padding: 50px;
+ }
+
+ #white-square > input {
+   display: block;
+   width: 370px;
+   height: 30px;
+   border: 0;
+   border-bottom: 1px solid purple;
+   outline: none;
+ }
+
+ #white-square a {
+   color: lightgray;
+ }
+
+ #fix-gradient {
+   background: linear-gradient(transparent, #76278f);
+   width: 100%;
+   height: 100px;
+   clear: right;
+ }
+
+ #gradient {
+   width: 100%;
+   background: linear-gradient(#76278f, #2b1e66);
+ }
+
+ #gradient > section > section {
+   display: inline-block;
+   text-align: left;
+   color: white;
+   vertical-align: top;
+   width: 47%;
+ }
+
+ #second-image > img {
+   width: 400px;
+ }
+
+ .mulberry {
+   color: #75278e;
+ }
+
+ .btn-purple {
+   display: inline-block;
+   margin-top: 25px;
+   background: #ff00bf;
+   padding: 15px 20px;
+   color: white;
+   text-decoration: none;
+   border-radius: 10px;
+ }
+
+ .center-block {
+   margin: 0 auto;
+   width: 60%;
+ }
+
+ .mt-0 {
+   margin-top: 0;
+ }
+
+.video {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  overflow:auto;
+}
+
+ #first-video > iframe {
+   float: right;
+
+  }
+
+#text1{
+  margin: 40px;
+  display: inline-block;
+  width: 370px;
+  height: 30px;
+  text-align: left;
+}
+
+#second-video > iframe {
+  float: left;
+
+ }
+
+ #text2{
+   margin: 40px;
+   display: inline-block;
+   width: 370px;
+   height: 30px;
+   text-align: right;
+ }
+
+
+  #third-video > iframe {
+   float: righ;
+
+  }
+
+  #text3{
+    margin: 40px;
+    display: inline-block;
+    width: 370px;
+    height: 30px;
+    text-align: left;
+  }
+
+
+#elements > ul > li > img{
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  list-style: none;
+  text-align: right;
+}
+
+footer {
+  background-color: #333546;
+  color: white;
+}
+
+footer > section {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+}
+
+footer > section > ul > li {
+  padding: 10px 0;
+  list-style: none;
+}
+
+footer > section > p > i {
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: 0 10px;
+  padding: 12px;
+}
+
+footer > section > #elements > ul > li {
+  padding: 10px 0;
+  list-style: none;
+}
